@@ -32,7 +32,7 @@ body{
     background: black;
     border: 1px solid black; 
     width: 350px;
-    height: 100px;
+    height: 400px;
     object-fit: contain;
 }
 .carrusel-fotos{
@@ -68,14 +68,42 @@ h2{
 	font-weight:500;
 	font-size: 14px;
 }
+h3{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.menu-hamburgesa{
+    display: flex;
+    background: #F0EFEB;
+    color: #4E3A2F;
+    
+}
+.menu-hamburgesa li{
+    font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 3px;
+    color: #4E3A2F;
+}
+.menu-hamburgesa ul{
+    margin-top:26px;
+    color: #4E3A2F;
+    list-style: none;
+    margin-left:-120px;
+    padding-right: 70px;
+}
+.menu-hamburgesa img{
+    max-height: 40px;
+    max-width: 40px;
+    padding-top: 100px;
+}
+.nosotros .tips .piel{
+    display: flex;
+}
 @media screen and (min-width:500px) {
     .carrusel-fotos{
         overflow: hidden;
     }
     .carrusel-fotos img{
-        width: 500px;
-        height: 270px;
-    }
+        width: 50%;
+         }
     .carrusel-menu{
         display: block;
     }
