@@ -9,7 +9,6 @@
 body{
 	position:relative;
 	font-family: 'Lexend Deca', sans-serif;
-	font-family: 'Nanum Pen Script', cursive;
 	background-color:#F0EFEB;
 	height: 100%;
 	max-width: 100%;
@@ -44,6 +43,33 @@ body{
 .carrusel-menu{
     display: none;
     }
+.form{
+    width: 70%;
+    height: 1000px;
+    background-color: #A5A58D;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.form img{
+    height: 500px;
+    width: 500px;
+}
+.form p{
+    color: #F0EFEB;
+    font-size: 30px;
+    width: 50%;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+.form h4{
+    padding-left: 460px;
+    margin-top:-350px;
+}
+input{
+    background-color: aqua;
+}
 .footer{
 	color: #4E3A2F;
 	background-color: #FFE5D9;
@@ -71,6 +97,12 @@ h2{
 h3{
     font-family: 'Lexend Deca', sans-serif;
 }
+h4{
+    font-family: "Nanum Pen", cursive;
+    font-size: 100px;
+    color: #F0EFEB;
+    
+}
 .menu-hamburgesa{
     display: flex;
     background: #F0EFEB;
@@ -88,6 +120,7 @@ h3{
     list-style: none;
     margin-left:-120px;
     padding-right: 70px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 .menu-hamburgesa img{
     max-height: 40px;
