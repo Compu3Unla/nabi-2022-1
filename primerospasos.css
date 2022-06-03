@@ -3,19 +3,19 @@
 
 
 .collapsible {
-  background-color: #777;
-  color: white;
+ font-color: #4E3A2F;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+	font-family: "Lexend Deca";
+ font-size: 600;
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #FF622A;
 }
 
 .content {
@@ -24,3 +24,27 @@
   overflow: hidden;
   background-color: #f1f1f1;
 }
+
+h2 {
+	font-family: "Lexend Deca";
+	font-color: #4E3A2F;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+h4 {
+	font-family: "Lexend Deca";
+	font-color: #4E3A2F;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+p {
+	font-family: "Lexend Deca";
+	font-color: #4E3A2F;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+
+
