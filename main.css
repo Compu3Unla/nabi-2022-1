@@ -16,45 +16,55 @@ body{
 .carrusel{
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-between;
     scroll-behavior: smooth;
+    width: 1920px;
+    height: auto;
     
 }
 .carrusel ul {
     list-style: none;
     margin:0px;
     padding: 0px;
-    max-width: 510px;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
+    max-width: 1000px;
 }
-.carrusel-fotos img{
-    background:#F0EFEB;
-    border: 1px solid #F0EFEB; 
-    width: 350px;
-    height: 30px;
-    object-fit: contain;
-}
+
 .carrusel-fotos{
     display: flex;
-    gap:10px;
+    gap:5px;
     overflow: auto;
-    
+    width: 100%;
+ 
 }
-.carrusel-menu{
-    display: none;
-    }
+.carrusel-fotos img{
+    object-fit: cover;
+}
+
 .form{
     width: 70%;
-    height: 1000px;
+    height: 600px;
     background-color: #A5A58D;
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
-    
+    margin:200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 250px;
+    padding-bottom: 300px;
+    align-content: center;
+    border-radius: 20px;
+}
+.formulario{
+    margin-top: 300px;
+    margin-right: 300px;
+    width: 50%;
 }
 .form img{
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
+    margin-bottom: 80px;
 }
 .form p{
     color: #F0EFEB;
@@ -62,13 +72,37 @@ body{
     width: 50%;
     padding-left: 120px;
     padding-top: 100px;
+    text-align: center;
 }
 .form h4{
     padding-left: 460px;
     margin-top:-350px;
+    width: 100%;
+}
+label{
+    display: block;
+    font-family: "Nanum Pen", cursive;
+    font-size: 30px;
+    color: #FFE5D9;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    
 }
 input{
-    background-color: aqua;
+    background-color: #F0EFEB;
+    height: 30px;;
+    padding-bottom: 10px;
+    width: 400px;;
+    border-radius: 10px;
+
+}
+.Suscribirse{
+    height: 30px;
+    width: 50%;
+    background-color: #FF622A;
+    margin-top: 50px;
+    color: white;
+    border-radius: 10px;
 }
 .footer{
 	color: #4E3A2F;
@@ -129,19 +163,4 @@ h4{
 }
 .nosotros .tips .piel{
     display: flex;
-}
-@media screen and (min-width:500px) {
-    .carrusel-fotos{
-        overflow: hidden;
-    }
-    .carrusel-fotos img{
-        width: 50%;
-         }
-    .carrusel-menu{
-        display: block;
-    }
-    .carrusel-menu img{
-        width: 50px;
-        height: 40px;
-}
 }
