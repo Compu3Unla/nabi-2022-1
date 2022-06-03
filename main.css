@@ -32,7 +32,7 @@ body{
     background: black;
     border: 1px solid black; 
     width: 350px;
-    height: 400px;
+    height: 30px;
     object-fit: contain;
 }
 .carrusel-fotos{
