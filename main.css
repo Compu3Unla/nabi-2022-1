@@ -5,27 +5,6 @@
 	margin: 0px;
 	padding: 0px;
 }
-.landing-page{
-	background-image:url("Img/foto principal.png");
-	height: 1000px;
-	width: 100%;
-	display: flex;
-}
-.iconos{
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	margin-left: 97px;
-	margin-right: 97px;
-	margin-top: 85px;
-	
-}
-.landing-page img{
-	height:43px;
-	width: 44px;
-}
-
-
 /****************************HEADER********************************/
 header{
 	width: 100%;
@@ -49,6 +28,27 @@ h1 {
 }
 .ayuda {
 	padding: 20px;
+}
+
+/****************************LANDING PAGE********************************/
+.landing-page{
+	background-image:url("Img/foto principal.png");
+	height: 1000px;
+	width: 100%;
+	display: flex;
+}
+.iconos{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-left: 97px;
+	margin-right: 97px;
+	margin-top: 85px;
+	
+}
+.landing-page img{
+	height:43px;
+	width: 44px;
 }
 /****************************BODY********************************/
 
@@ -327,6 +327,32 @@ input{
 	justify-content: flex-start;
 	flex-direction: row;
 	margin-left:50px;
+}
+.time {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-content: space-around;
+	align-items: center;
+	position: absolute;
+	left: 75%;
+	top: 4%;
+}
+.time2{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-content: space-around;
+	align-items: center;
+	position: absolute;
+	left: 75%;
+	top: 5%;
+}
+.reloj {
+	padding-right: 5px;
+}
+.mas {
+	padding-right: 5px;
 }
 /****************************FOOTER********************************/
 .footer{
