@@ -52,22 +52,26 @@ line-height: 33px;
 color: #4E3A2F;
 }
 .landing-page h5{
-display: flex;
-position: absolute;
-width: 471px;
-height: 97px;
-left: 1100px;
-top: 586px;
-color: #F0EFEB;
-background-color: #FF622A;
-border-radius: 20px;
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 30px;
-text-align: center;
-}
+	display: flex;
+	position: absolute;
+	width: 471px;
+	height: 97px;
+	left: 1100px;
+	top: 586px;
+	color: #F0EFEB;
+	background-color: #FF622A;
+	border-radius: 20px;
+	font-family: 'Lexend Deca';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;	
+	padding-top: 35px;
+	padding-left: 85px;
+	text-transform: uppercase;
+	
+	}
 body{
 	position:relative;
 	font-family: 'Lexend Deca', sans-serif;
@@ -167,8 +171,6 @@ body{
 
 
 .form{
-	width: 70%;
-	height: 600px;
 	background-color: #A5A58D;
 	display: flex;
 	margin:200px;
@@ -180,16 +182,20 @@ body{
     padding-bottom: 300px;
     align-content: center;
     border-radius: 20px;
+	width: 1500px;
+	height: 1000px;
+
 }
 .formulario{
-    margin-top: 300px;
-    margin-right: 300px;
+    margin-top: 20px;
+    margin-right: 10px;
     width: 50%;
 }
 .form img{
     height: 450px;
     width: 450px;
     margin-bottom: 80px;
+	margin-top: 500px;
 }
 .form p{
     color: #F0EFEB;
@@ -203,6 +209,12 @@ body{
     padding-left: 460px;
     margin-top:-350px;
     width: 100%;
+	font-family: 'Nanum Pen';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 120px;
+	line-height: 138px;
+	color: #F0EFEB;
 }
 label{
     display: block;
