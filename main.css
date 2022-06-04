@@ -5,12 +5,32 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+/****************************HEADER********************************/
 header{
 	width: 100%;
 	height: 92px;
-	color: #FF622A;
+	background-color: #FF622A;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
-
+h1 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 1em;
+	color: #F0EFEB;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: 400;
+	}
+.logo {
+	position: relative;
+	right: 52%;
+}
+.ayuda {
+	padding: 20px;
+}
+/****************************BODY********************************/
 body{
 	position:relative;
 	font-family: 'Lexend Deca', sans-serif;
@@ -19,6 +39,8 @@ body{
 	height: 100%;
 	max-width: 100%;
 }
+
+/****************************FOOTER********************************/
 
 .footer{
 	color: #4E3A2F;
