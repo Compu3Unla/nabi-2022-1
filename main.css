@@ -25,6 +25,33 @@
 	width: 44px;
 }
 
+
+/****************************HEADER********************************/
+header{
+	width: 100%;
+	height: 92px;
+	background-color: #FF622A;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+h1 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 1em;
+	color: #F0EFEB;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: 400;
+	}
+.logo {
+	position: relative;
+	right: 52%;
+}
+.ayuda {
+	padding: 20px;
+}
+/****************************BODY********************************/
+
 h1{
 position: absolute;
 width: 288px;
@@ -72,6 +99,7 @@ color: #4E3A2F;
 	text-transform: uppercase;
 	
 	}
+
 body{
 	position:relative;
 	font-family: 'Lexend Deca', sans-serif;
@@ -79,6 +107,60 @@ body{
 	height: 100%;
 	max-width: 100%;
 }
+/****************************COLLAPSIBLE********************************/
+.collapsible {
+ font-color: #4E3A2F;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+	font-family: "Lexend Deca";
+ font-size: 600;
+}
+
+.active, .collapsible:hover {
+  background-color: #FF622A;
+	text-decoration-style: dashed;
+	}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+h2 {
+	font-family: "Lexend Deca";
+	font-color: #4E3A2F;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+h4 {
+	font-family: "Lexend Deca";
+	font-color: #4E3A2F;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+p {
+	font-family: "Lexend Deca";
+	font-color: #4E3A2F;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+h5 {
+	font-family: "Lexend Deca";
+	font-color: #FF622A;
+	font-weight: 800;
+	font-size: 14px;
+}
+
+/****************************FOOTER********************************/
 
 * {box-sizing:border-box}
 
