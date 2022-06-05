@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+<html lang="en"></html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,8 +53,59 @@
 	</nav>
 	<h2>¡Queremos saber tu opinión!</h2>
 	<h2>Enviar mensaje</h2>
+<!--gallery-->
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+      <img src="galeria/mascarillas caseras.png" style="width:100%" alt="primer-imagen">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+      <img src="galeria/tipo de acne.png" style="width:100%" alt="acne">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+      <img src="galeria/accesorios rutina.png" style="width:100%" alt="accesorios">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+      <img src="galeria/maquillaje vencido.png" style="width:100%" alt="maquillaje">
+  </div>
+
+ 
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="/galeria/mascarillas caseras.png" style="width:100%" onclick="currentSlide(1)" alt="1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/galeria/tipo de acne.png" style="width:100%" onclick="currentSlide(2)" alt="2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/galeria/accesorios rutina.png" style="width:100%" onclick="currentSlide(3)" alt="3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/galeria/maquillaje vencido.png" style="width:100%" onclick="currentSlide(4)" alt="4">
+	 </div>
+    </div>
+  </div>
 	
-<!--form-->
+	<!--form-->
     <div class="form">
         <div class="info">
             <img src="Img/logo mariposa.svg" alt="logo-nabi" />
@@ -66,10 +118,10 @@
                 <input type="text" name="Nombre" id="Nombre" maxlength="30" required>
                 <label for="Email">Email</label> 
                 <input type="email" name="Email" id="Email" required> 
-                <input type="submit" value="Suscribirse" formenctype="text/plain" class="Suscribirse">
-            </form>
-        </div>
-        </div>
+				<input type="submit" value="Suscribirse" formenctype="text/plain" class="Suscribirse">
+			</form>
+		</div>
+		</div>
 </main>
 <!--footer-->
 <footer class="footer">
@@ -101,6 +153,6 @@
 		</nav>
 		
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
