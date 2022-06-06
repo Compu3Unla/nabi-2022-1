@@ -39,12 +39,10 @@ h1 {
 	display: flex;
 }
 .iconos{
-	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	margin-left: 97px;
-	margin-right: 97px;
-	margin-top: 85px;
+	margin-left: 1300px;
+	margin-top: 30px;
 	
 }
 .landing-page img{
@@ -54,12 +52,13 @@ h1 {
 /****************************DROPDOWN BUTTON************/
 /* Dropdown Button */
 .dropbtn {
-  background-image: url("Img/noun-menu-4817062.svg");
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+	background-image: url("Img/noun-menu-4817062.svg");
+	padding: 20px;
+	margin-left: 30px;
+	margin-top: 50px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
 }
 
 /* Dropdown button on hover & focus */
@@ -75,13 +74,17 @@ h1 {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: inline;
-  position: absolute;
-  background-color:#F0EFEB;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-	width: 100%;
+	display: none;
+	position: absolute;
+	background-color:#F0EFEB;
+	width: 840px;
+	height: 477px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 31px;
+	top:55px;
+	left: 97px;
+	
 }
 
 /* Links inside the dropdown */
@@ -93,9 +96,10 @@ h1 {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
-	line-height: 25px;
+	line-height: 181px;
 	display: inline;
     margin-left: 50px;
+	margin-top: 40px;
 	width: 700px;
 }
 
@@ -104,6 +108,17 @@ h1 {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+.dropdown-content li{
+	list-style: none;
+	font-family: 'Lexend Deca';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #4E3A2F;
+}
+	
+
 /****************************BODY********************************/
 
 
