@@ -18,108 +18,103 @@
 <main> 
 	<!--landing page-->
 	<div class="landing-page">
+		<div class="dropdown">
+	<button onclick="myFunction()" class="dropbtn"> </button> 
+	<div id="myDropdown" class="dropdown-content">
+		<a href="#tiposdepiel">Tipos de Piel</a>
+		<ul>
+			<li>Piel grasa</li>
+			<li>Piel seca </li>
+			<li>Piel mixta </li>
+			<li>Piel con Rosacea </li>
+		</ul>
+		<a href="#sobrenosotros">Sobre nosotros</a>
+		<ul>
+			<li>Asesoramiento online </li>
+			<li>Recomendaciones </li>
+			<li>Zona cruelty free </li>
+		</ul>
+		<a href="#atenerencuenta">A tener en cuenta</a>
+		<ul>
+			<li>Maquillaje vencido </li>
+			<li>Mascarillas caseras </li>
+			<li>Protección Solar </li>
+		</ul>
+	</div>
+	</div>
 		<div class="iconos">
-			<img src="Img/noun-menu-4817062.svg" alt="menu-hamburguesa"/> 
 			<img src="Img/140-help-center.svg" alt="icono-ayuda"/> 
 		</div>
 		<h1 class="nabi">Nabi</h1>
 		<p>Te queremos ayudar a que tu vida mejore, a que aprendas a cuidar tu piel y tu salud. Conocé tu piel, conocete. </p>
 		<h5>Conocé tu tipo de piel</h5><br>
 	</div>
-	
-	<!-------------MENU HAMBURGUESA------>
-	<nav class="menu-hamburgesa"><br>
-		<img src="Img/equis.svg" alt="equis"/>
-		<h3>Tipos de Piel</h3>
-		<ul class="piel"> 
-			<li>Piel Grasa</li>
-			<li>Piel Seca</li>
-			<li>Piel Mixta</li>
-			<li>Piel con Rosacea.</li>
-			<img src="Img/noun-butterfly-1549375.svg" alt="mariposa"/>
-			</ul>	
-		<h3>Sobre nosotros</h3>
-		<ul class="nosotros"> 
-			<li>Asesoramiento online</li>
-			<li>Recomendaciones</li>
-			<li>Zona cruelty free</li>
-			<img src="Img/noun-skin-1617352.svg" alt="skin"/>
-		</ul>
-		<h3>A tener en cuenta</h3>
-			<ul class="tips"> 
-				<li>Maquillajes Vencidos</li>
-				<li>Mascarillas Caseras</li>
-				<li>Protección Solar</li>
-				<img src="Img/noun-derma-2225062.svg" alt="cremita"/>
-				</ul>
-	</nav>
-	<h6>¡Queremos saber tu opinión!</h6>
-	<h6>Enviar mensaje</h6>
+	<!--dropdown-->
+	<h2>¡Queremos saber tu opinión!</h2>
+	<h2>Enviar mensaje</h2> 
 <!--gallery-->
-<!-- Container for the image gallery -->
+<!-- Container for the image gallery>
 <div class="container">
 
-<!-- Full-width images with number text -->
-	<div class="mySlides">
-	<div class="numbertext">1 / 4</div>
-		<img src="galeria/mascarillas caseras.png" style="width:100%" alt="primer-imagen">
-	</div>
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+      <img src="galeria/mascarillas caseras.png" style="width:100%" alt="primer-imagen">
+  </div>
 
-	<div class="mySlides">
-	<div class="numbertext">2 / 4</div>
-		<img src="galeria/tipo de acne.png" style="width:100%" alt="acne">
-	</div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+      <img src="galeria/tipo de acne.png" style="width:100%" alt="acne">
+  </div>
 
-	<div class="mySlides">
+<div class="mySlides">
 	<div class="numbertext">3 / 4</div>
 	<img src="galeria/accesorios rutina.png" style="width:100%" alt="accesorios">
-	</div>
+  </div>
 
-	<div class="mySlides">
+<div class="mySlides">
 	<div class="numbertext">4 / 4</div>
 	<img src="galeria/maquillaje vencido.png" style="width:100%" alt="maquillaje">
-	</div>
 </div>
+
  
-<!-- Next and previous buttons -->
-	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-<!-- Image text -->
-	<div class="caption-container">
-		<p id="caption"></p>
-	</div>
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
 
-<!-- Thumbnail images -->
-	<div class="row">
-		<div class="column">
-			<img class="demo cursor" src="/galeria/mascarillas caseras.png" style="width:100%" onclick="currentSlide(1)" alt="1">
-		</div>
-		<div class="column">
-			<img class="demo cursor" src="/galeria/tipo de acne.png" style="width:100%" onclick="currentSlide(2)" alt="2">
-		</div>
-		<div class="column">
-			<img class="demo cursor" src="/galeria/accesorios rutina.png" style="width:100%" onclick="currentSlide(3)" alt="3">
-		</div>
-		<div class="column">
-			<img class="demo cursor" src="/galeria/maquillaje vencido.png" style="width:100%" onclick="currentSlide(4)" alt="4">
-		</div>
-	</div>
-
-	
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="/galeria/mascarillas caseras.png" style="width:100%" onclick="currentSlide(1)" alt="1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/galeria/tipo de acne.png" style="width:100%" onclick="currentSlide(2)" alt="2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/galeria/accesorios rutina.png" style="width:100%" onclick="currentSlide(3)" alt="3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/galeria/maquillaje vencido.png" style="width:100%" onclick="currentSlide(4)" alt="4">
+	 </div>
+    </div>
 	<!--form-->
-	<div class="form">
-		<div class="info">
-			<img src="Img/logo mariposa.svg" alt="logo-nabi" />
-			<h4>Nabi te invita a unirte</h4>
-			<p>En nuestro compromiso para ayudar a la comunidad a aprender como cuidarse mejor la salud de la piel, nos proponemos enviarte mails semanales sobre las novedades de la página, nuevos artículos e información que necesitas saber.</p>
-		</div>
-	<div class="formulario">
-		<form method="post" action="mailto:karenbelenmendoza@gmail.com?subject=Email enviado desde el formulario" target="_blank" enctype="text/plain">
-			<label for="Nombre">Nombre</label> 
-			<input type="text" name="Nombre" id="Nombre" maxlength="30" required>
-			<label for="Email">Email</label> 
-			<input type="email" name="Email" id="Email" required> 
+    <div class="form">
+        <div class="info">
+            <img src="Img/logo mariposa.svg" alt="logo-nabi" />
+            <h4>Nabi te invita a unirte</h4>
+            <p>En nuestro compromiso para ayudar a la comunidad a aprender como cuidarse mejor la salud de la piel, nos proponemos enviarte mails semanales sobre las novedades de la página, nuevos artículos e información que necesitas saber.</p>
+        </div>
+        <div class="formulario">
+            <form method="post" action="mailto:karenbelenmendoza@gmail.com?subject=Email enviado desde el formulario" target="_blank" enctype="text/plain">
+                <label for="Nombre">Nombre</label> 
+                <input type="text" name="Nombre" id="Nombre" maxlength="30" required>
+                <label for="Email">Email</label> 
+                <input type="email" name="Email" id="Email" required> 
 				<input type="submit" value="Suscribirse" formenctype="text/plain" class="Suscribirse">
 			</form>
 		</div>
@@ -135,8 +130,7 @@
 				Preguntas frecuentes
 		  </li>
 		</ul>
-  </div>
-		
+</div>
 	<div class="columns">
 		<h2>COMUNIDAD</h2>
 		<ul>
