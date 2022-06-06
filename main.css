@@ -20,7 +20,7 @@ h1 {
 	color: #F0EFEB;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-weight: 300;
+	font-weight: 400;
 	}
 .logo {
 	position: relative;
@@ -241,15 +241,17 @@ body{
 }
 /****************************COLLAPSIBLE********************************/
 .collapsible {
-	font-color: #4E3A2F;
+	background-color: #A5A58D;
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
-	border: none;
 	text-align: left;
 	outline: none;
 	font-family: "Lexend Deca";
 	font-size: 600;
+	border-top: 5px;
+	border-style: solid;
+	border-color: #F0EFEB;
 }
 
 .active, .collapsible:hover {
@@ -266,28 +268,28 @@ body{
 
 h2 {
 	font-family: "Lexend Deca";
-	font-color: #4E3A2F;
+	color: #4E3A2F;
 	font-weight: 600;
 	font-size: 20px;
 }
 
 h4 {
 	font-family: "Lexend Deca";
-	font-color: #4E3A2F;
+	color: #4E3A2F;
 	font-weight: 400;
 	font-size: 18px;
 }
 
 p {
 	font-family: "Lexend Deca";
-	font-color: #4E3A2F;
+	color: #4E3A2F;
 	font-weight: 400;
 	font-size: 14px;
 }
 
 h5 {
 	font-family: "Lexend Deca";
-	font-color: #FF622A;
+	color: #FF622A;
 	font-weight: 800;
 	font-size: 14px;
 }
@@ -424,11 +426,24 @@ h2{
 }
 h3{
 	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 500;
+	color: #4E3A2F;
+	font-size: 1.125em;
 }
-h4{
-	font-family: "Nanum Pen", cursive;
-	font-size: 100px;
-	color: #F0EFEB;
+
+.pasos-collapsible {
+	font-family: "Lexend Deca";
+	color: #F0EFEBF;
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+.pasos{
+	font-family: "Lexend Deca";
+	color: #F0EFEBF;
+	font-weight: 600;
+	font-size: 1.1em;
+
 }
 .menu-hamburgesa{
 	display: flex;
