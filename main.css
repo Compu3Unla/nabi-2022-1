@@ -24,10 +24,11 @@ h1 {
 	}
 .logo {
 	position: relative;
-	right: 52%;
+	right: 50%;
 }
 .ayuda {
-	padding: 20px;
+	padding-right: 20pt;
+	padding-left: 20pt;
 }
 
 /****************************LANDING PAGE********************************/
@@ -294,7 +295,26 @@ h5 {
 	font-size: 14px;
 }
 
+.pasos-collapsible {
+	font-family: "Lexend Deca";
+	color: #F0EFEB;
+	font-weight: 400;
+	font-size: 1.1em;
+}
 
+.pasos{
+	font-family: "Lexend Deca";
+	color: #F0EFEBF;
+	font-weight: 600;
+	font-size: 1.1em;
+
+}
+span {
+	font-family: "Lexend Deca";
+	color: #FF622A;
+	font-weight: 800;
+	font-size: 0.875;
+}
 
 .form{
 	background-color: #A5A58D;
@@ -431,20 +451,6 @@ h3{
 	font-size: 1.125em;
 }
 
-.pasos-collapsible {
-	font-family: "Lexend Deca";
-	color: #F0EFEBF;
-	font-weight: 400;
-	font-size: 1.1em;
-}
-
-.pasos{
-	font-family: "Lexend Deca";
-	color: #F0EFEBF;
-	font-weight: 600;
-	font-size: 1.1em;
-
-}
 .menu-hamburgesa{
 	display: flex;
 	background: #F0EFEB;
