@@ -267,7 +267,7 @@ body{
 .collapsible {
 	background-color: #A5A58D;
 	cursor: pointer;
-	padding: 18px;
+	padding: 18px 18px 18px 40px;
 	width: 100%;
 	text-align: left;
 	outline: none;
@@ -284,7 +284,7 @@ body{
 	}
 
 .content {
-	padding: 0 18px;
+	/*padding: 0 18px;*/
 	display: none;
 	overflow: hidden;
 	background-color: #f1f1f1;
@@ -293,6 +293,13 @@ body{
 h2 {
 	font-family: "Lexend Deca";
 	color: #4E3A2F;
+
+	font-weight: 700;
+	font-size: 1.8em;
+	width: 100%;
+	height: 220px;
+	padding: 80px 0px 0px 40px
+
 	font-weight: 600;
 	font-size: 20px;
 }
@@ -316,28 +323,55 @@ h5 {
 	color: #FF622A;
 	font-weight: 800;
 	font-size: 14px;
+
 }
 
 .pasos-collapsible {
 	font-family: "Lexend Deca";
+
+	color: #F0EFEBF;
+	font-weight: 500;
+
 	color: #F0EFEB;
 	font-weight: 400;
+
 	font-size: 1.1em;
 }
 
-.pasos{
+/*.pasos{
 	font-family: "Lexend Deca";
 	color: #F0EFEBF;
 	font-weight: 600;
 	font-size: 1.1em;
+
+}*/
+
+p {
+	font-family: "Lexend Deca";
+	color: #4E3A2F;
+	font-weight: 400;
+	font-size: 0.875em;
+	margin: 15px 0px 15px 40px;
+	width: 40%;
+
 
 }
 span {
 	font-family: "Lexend Deca";
 	color: #FF622A;
 	font-weight: 800;
-	font-size: 0.875;
+	font-size: 0.875em;
 }
+
+
+h5 {
+	font-family: "Lexend Deca";
+	color: #4E3A2F;
+	font-weight: 600;
+	font-size: 0.75em;
+}
+/***************FORMULARIO***********************/
+
 
 .form{
 	background-color: #A5A58D;
@@ -406,12 +440,17 @@ input{
 	color: white;
 	border-radius: 10px;
 }
+.like {
+	padding: 80px 0px 0px 40px;
+	width: 100%;
+	height: 250px;
+}
 .caritas {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	flex-direction: row;
-	margin-left:50px;
+	/*margin-left:50px;*/
 }
 .time {
 	display: flex;
@@ -419,9 +458,9 @@ input{
 	flex-direction: row;
 	align-content: space-around;
 	align-items: center;
-	position: absolute;
+	position: fixed;
 	left: 75%;
-	top: 4%;
+	top: 32%;
 }
 .time2{
 	display: flex;
@@ -429,9 +468,9 @@ input{
 	flex-direction: row;
 	align-content: space-around;
 	align-items: center;
-	position: absolute;
+	position: relative;
 	left: 75%;
-	top: 5%;
+	top: 40%;
 }
 .reloj {
 	padding-right: 5px;
@@ -456,7 +495,13 @@ footer ul, h3{
 footer li{
 	font-family: 'Lexend Deca', sans-serif;
 	font-weight:400;
-	font-size: 12px;
+	font-size: 0.75em;
+}
+h6 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 0.75em;
+	font-weight: 500;
+	text-decoration: underline;
 }
 
 
@@ -466,12 +511,15 @@ footer li{
 	padding: 0 50px 0px 0px;
 }
 
+
+
 h2{
 
 	font-family: 'Lexend Deca', sans-serif;
 	font-weight:500;
 	font-size: 14px;
 }
+
 h3{
 	font-family: 'Lexend Deca', sans-serif;
 	font-weight: 500;
