@@ -4,106 +4,123 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <link href= "main.css" type="text/css" rel="stylesheet">
 <title>Home</title>
 </head>
 
 <body>
 	<header>
-		
-		
+		<img src="Img/foto principal.png" class="imagenprincipal" alt=""/>
+	  <nav>
+	    <div class="landing-page">
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn"> </button> 
+			<div id="myDropdown" class="dropdown-content">
+				<a href="#tiposdepiel">Tipos de Piel</a>
+			<ul>
+				<li>Piel grasa</li>
+				<li>Piel seca </li>
+				<li>Piel mixta </li>
+				<li>Piel con Rosacea </li>
+			</ul>
+				<a href="#sobrenosotros">Sobre nosotros</a>
+			<ul>
+				<li>Asesoramiento online </li>
+				<li>Recomendaciones </li>
+				<li>Zona cruelty free </li>
+			</ul>
+				<a href="#atenerencuenta">A tener en cuenta</a>
+			<ul>
+				<li>Maquillaje vencido </li>
+				<li>Mascarillas caseras </li>
+				<li>Protección Solar </li>
+			</ul>	
+				<!--dropdown-->
+				<h2>¡Queremos saber tu opinión!</h2>
+				<h2>Enviar mensaje</h2> 
+			</div>
+			</div>
+			</div>
+	  </nav>
+			<!--añadir otro hmtl-->
+	  <div class="iconos">
+				<img src="Img/140-help-center.svg" class="icon_help" alt="icono-ayuda"/> 
+			</div>
 	</header>
+		
+<main>
 	
-<main> 
-	<!--landing page-->
-	<div class="landing-page">
-		<div class="dropdown">
-	<button onclick="myFunction()" class="dropbtn"> </button> 
-	<div id="myDropdown" class="dropdown-content">
-		<a href="#tiposdepiel">Tipos de Piel</a>
-		<ul>
-			<li>Piel grasa</li>
-			<li>Piel seca </li>
-			<li>Piel mixta </li>
-			<li>Piel con Rosacea </li>
-		</ul>
-		<a href="#sobrenosotros">Sobre nosotros</a>
-		<ul>
-			<li>Asesoramiento online </li>
-			<li>Recomendaciones </li>
-			<li>Zona cruelty free </li>
-		</ul>
-		<a href="#atenerencuenta">A tener en cuenta</a>
-		<ul>
-			<li>Maquillaje vencido </li>
-			<li>Mascarillas caseras </li>
-			<li>Protección Solar </li>
-		</ul>
-	</div>
-	</div>
-		<div class="iconos">
-			<img src="Img/140-help-center.svg" alt="icono-ayuda"/> 
-		</div>
-		<h1 class="nabi">Nabi</h1>
-		<p>Te queremos ayudar a que tu vida mejore, a que aprendas a cuidar tu piel y tu salud. Conocé tu piel, conocete. </p>
-		<h5>Conocé tu tipo de piel</h5><br>
-	</div>
-	<!--dropdown-->
-	<h2>¡Queremos saber tu opinión!</h2>
-	<h2>Enviar mensaje</h2> 
-<!--gallery-->
-<!-- Container for the image gallery>
-<div class="container">
-
-  <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 4</div>
-      <img src="galeria/mascarillas caseras.png" style="width:100%" alt="primer-imagen">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 4</div>
-      <img src="galeria/tipo de acne.png" style="width:100%" alt="acne">
-  </div>
-
-<div class="mySlides">
-	<div class="numbertext">3 / 4</div>
-	<img src="galeria/accesorios rutina.png" style="width:100%" alt="accesorios">
-  </div>
-
-<div class="mySlides">
-	<div class="numbertext">4 / 4</div>
-	<img src="galeria/maquillaje vencido.png" style="width:100%" alt="maquillaje">
-</div>
-
-
+	<img src="Img/foto principal.png"  alt=""/>
+	
+<section>
+	<article>
+		<div class="section_principal">		
+	    <h1 class="nabi">Nabi</h1>
+	    <p>Te queremos ayudar a que tu vida mejore, a que aprendas a cuidar tu piel y tu salud. Conocé tu piel, conocete. </p>
+	    <h5>Conocé tu tipo de piel</h5>
+	  </div>
+	</article>
+	
+	
+	<article>
 	<!-- Next and previous buttons -->
-	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-	<!-- Image text -->
-	<div class="caption-container">
-	<p id="caption"></p>
-	</div>
+		<!-- Image text -->
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
 
-	<!-- Thumbnail images -->
-	<div class="row">
-	<div class="column">
-		<img class="demo cursor" src="/galeria/mascarillas caseras.png" style="width:100%" onclick="currentSlide(1)" alt="1">
-	</div>
-	<div class="column">
-		<img class="demo cursor" src="/galeria/tipo de acne.png" style="width:100%" onclick="currentSlide(2)" alt="2">
-	</div>
-	<div class="column">
-		<img class="demo cursor" src="/galeria/accesorios rutina.png" style="width:100%" onclick="currentSlide(3)" alt="3">
-	</div>
-	<div class="column">
-		<img class="demo cursor" src="/galeria/maquillaje vencido.png" style="width:100%" onclick="currentSlide(4)" alt="4">
-	</div>
-	</div>
+		<!-- Thumbnail images -->
+		<div class="row">
+		<div class="column">
+			<img class="demo cursor" src="/galeria/mascarillas caseras.png" style="width:100%" onclick="currentSlide(1)" alt="1">
+		</div>
+		<div class="column">
+			<img class="demo cursor" src="/galeria/tipo de acne.png" style="width:100%" onclick="currentSlide(2)" alt="2">
+		</div>
+		<div class="column">
+			<img class="demo cursor" src="/galeria/accesorios rutina.png" style="width:100%" onclick="currentSlide(3)" alt="3">
+		</div>
+		<div class="column">
+			<img class="demo cursor" src="/galeria/maquillaje vencido.png" style="width:100%" onclick="currentSlide(4)" alt="4">
+		</div>
+		</div>
+	</article>
+	
+	<article>
+	<!--gallery-->
+	<!-- Container for the image gallery>
+	<div class="container">
+
+  	<!-- Full-width images with number text -->
+  		<div class="mySlides">
+    	<div class="numbertext">1 / 4</div>
+      		<img src="Img/galeria/mascarillas caseras.png" style="width:100%" alt="primer-imagen">
+  		</div>
+
+  		<div class="mySlides">
+    	<div class="numbertext">2 / 4</div>
+      		<img src="Img/galeria/tipo de acne.png" style="width:100%" alt="acne">
+  		</div>
+
+		<div class="mySlides">
+		<div class="numbertext">3 / 4</div>
+			<img src="Img/galeria/accesorios rutina.png" style="width:100%" alt="accesorios">
+  		</div>
+
+		<div class="mySlides">
+		<div class="numbertext">4 / 4</div>
+			<img src="./Img/galeria/maquillaje vencido.png" style="width:100%" alt="maquillaje">
+		</div>
+	</article>
+
+
+	<article>
 	<!--form-->
-	<div class="form">
+		<div class="form">
 		<div class="info">
 			<img src="Img/logo mariposa.svg" alt="logo-nabi" />
 			<h4>Nabi te invita a unirte</h4>
@@ -119,27 +136,27 @@
 			</form>
 		</div>
 		</div>
+		</article>
+		</section>
 </main>
-<!--footer-->
-<footer class="footer">
-	<div class="columns">
-		<h2>SOBRE NOSOTROS</h2>
-		<ul>
-			<li>Contactanos</li>
-			<li>
-				Preguntas frecuentes
-		  </li>
-		</ul>
-</div>
-	<div class="columns">
-		<h2>COMUNIDAD</h2>
-		<ul>
-		  <li>Foro de consultas</li>
-		  <li>Tips</li>
-		  <li>Ayuda Profesional</li>
-		</ul>
-		
-	</div>
+		<!--footer-->
+		<footer class="footer">
+			<div class="columns">
+				<h2>SOBRE NOSOTROS</h2>
+			<ul>
+				<li>Contactanos</li>
+				<li>Preguntas frecuentes</li>
+			</ul>
+			</div>
+		  <div class="columns">
+			<h2>COMUNIDAD</h2>
+			<ul>
+		  		<li>Foro de consultas</li>
+		  		<li>Tips</li>
+		  		<li>Ayuda Profesional</li>
+			</ul>
+		  </div>
+	
 		<nav>
 			<ul>
 				<li><a href="https://twitter.com/"><img src="Img/redeees_Mesa de trabajo 1.svg" alt="twitter"/></a></li>
@@ -147,8 +164,10 @@
 				<li><a href="https://www.facebook.com/"><img src="Img/redeees-03.svg" alt="face"/></a></li>
 			</ul>
 		</nav>
+		</footer>
 		
-</footer>
+		
 <script src="script.js"></script>
+		
 </body>
 </html>
