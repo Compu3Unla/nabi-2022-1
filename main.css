@@ -47,7 +47,7 @@ h1 {
 }
 .landing-page img{
 	height:43px;
-	width: 44px;
+	width: 750px;
 }
 /****************************DROPDOWN BUTTON************/
 /* Dropdown Button */
@@ -126,7 +126,7 @@ h1 {
 	position: absolute;
 	width: 288px;
 	height: 206px;
-	left: 650px;
+	left: 1232px;
 	top: 225.05px;
 	font-family: 'Nanum Pen';
 	font-style: normal;
@@ -139,7 +139,7 @@ h1 {
 	position: absolute;
 	width: 553px;
 	height: 143px;
-	left: 650px;
+	left: 1232px;
 	top: 443px;
 	font-family: 'Lexend Deca';
 	font-style: normal;
@@ -153,7 +153,7 @@ h1 {
 	position: absolute;
 	width: 471px;
 	height: 97px;
-	left: 650px;
+	left: 1232px;
 	top: 586px;
 	color: #F0EFEB;
 	background-color: #FF622A;
@@ -201,7 +201,6 @@ body{
 .next {
 	cursor: pointer;
 	position: absolute;
-	top: 40%;
 	width: auto;
 	padding: 16px;
 	margin-top: -50px;
@@ -210,7 +209,8 @@ body{
 	font-size: 20px;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
-	-webkit-user-select: none;
+	webkit-user-select: none;
+	top: 2000px;
 }
 
 /* Position the "next button" to the right */
@@ -224,37 +224,6 @@ body{
 .next:hover {
 	background-color: rgba(0, 0, 0, 0.8);
 }
-
-/* Number text (1/3 etc) */
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-	text-align: center;
-	background-color: #222;
-	padding: 2px 16px;
-	color: white;
-}
-
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-/* Six columns side by side */
-.column {
-	float: left;
-	width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
 .demo {
 	opacity: 0.6;
 }
@@ -366,54 +335,57 @@ h5 {
 
 .form{
 	background-color: #A5A58D;
+	margin-top: 20px;
+	margin-bottom: 50px;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
 	align-items: center;
-	margin-bottom: 250px;
-	padding-bottom: 300px;
-	align-content: center;
 	border-radius: 20px;
-	width: 90%;
-	height: 1000px;
+	width: 80%;
+	height: 820px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .formulario{
-	margin-top: 20px;
 	width: 50%;
+	margin-top: 314px;
+	padding-right: 60px;
 }
 .form img{
-	height: 450px;
-	width: 450px;
-	margin-bottom: 80px;
-	margin-top: 500px;
+	height: 420px;
+	width: 420px;
+	vertical-align: text-top;
+
 }
 .form p{
 	color: #F0EFEB;
 	font-size: 30px;
 	width: 50%;
 	padding-left: 120px;
-	padding-top: 100px;
+	margin-top: -63px;
 	text-align: center;
 }
 .form h4{
-	padding-left: 460px;
-	margin-top:-350px;
 	width: 100%;
 	font-family: 'Nanum Pen';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 120px;
+	font-size: 100px;
 	line-height: 138px;
 	color: #F0EFEB;
+	position: absolute;
+	left: 600px;
+	margin-top: 110px;
+
 }
 label{
 	display: block;
 	font-family: "Nanum Pen", cursive;
 	font-size: 30px;
 	color: #FFE5D9;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	text-decoration: underline;
+	
 }
 input{
 	background-color: #F0EFEB;
@@ -424,12 +396,13 @@ input{
 
 }
 .Suscribirse{
-	height: 30px;
-	width: 50%;
+	height: 45px;
 	background-color: #FF622A;
-	margin-top: 50px;
+	margin-top: 30px;
 	color: white;
 	border-radius: 10px;
+	font-family: "Nanum Pen", cursive;
+	font-size: 30px;
 }
 .like {
 	padding: 80px 0px 0px 40px;
