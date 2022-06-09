@@ -359,8 +359,8 @@ h5 {
 }
 .form p{
 	color: #F0EFEB;
-	font-size: 30px;
-	width: 50%;
+	font-size: 1.25em;
+	width: 60%;
 	padding-left: 120px;
 	margin-top: -63px;
 	text-align: center;
@@ -370,7 +370,7 @@ h5 {
 	font-family: 'Nanum Pen';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 100px;
+	font-size: 4.063em;
 	line-height: 138px;
 	color: #F0EFEB;
 	position: absolute;
@@ -393,6 +393,7 @@ input{
 	padding-bottom: 10px;
 	width: 400px;;
 	border-radius: 10px;
+	    border: none;
 
 }
 .Suscribirse{
