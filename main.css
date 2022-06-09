@@ -5,6 +5,12 @@
 	margin: 0px;
 	padding: 0px;
 }
+@font-face {
+	font-family: 'Nanum-Pen';
+	src: url("Font/NANUMPENSCRIPT-REGULAR.TTF") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 /****************************HEADER********************************/
 header{
 	width: 100%;
@@ -128,7 +134,7 @@ h1 {
 	height: 206px;
 	left: 1232px;
 	top: 225.05px;
-	font-family: 'Nanum Pen';
+	font-family: 'Nanum-Pen';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 200px;
@@ -367,7 +373,7 @@ h5 {
 }
 .form h4{
 	width: 100%;
-	font-family: 'Nanum Pen';
+	font-family: 'Nanum-Pen';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 4.063em;
@@ -380,7 +386,7 @@ h5 {
 }
 label{
 	display: block;
-	font-family: "Nanum Pen", cursive;
+	font-family: "Nanum-Pen", cursive;
 	font-size: 30px;
 	color: #FFE5D9;
 	margin-bottom: 20px;
@@ -402,7 +408,7 @@ input{
 	margin-top: 30px;
 	color: white;
 	border-radius: 10px;
-	font-family: "Nanum Pen", cursive;
+	font-family: "Nanum-Pen", cursive;
 	font-size: 30px;
 }
 .like {
