@@ -30,7 +30,7 @@ h1 {
 	}
 .logo {
 	position: relative;
-	right: 50%;
+	right: 65%;
 }
 .ayuda {
 	padding-right: 20pt;
@@ -666,6 +666,7 @@ h6 {
 	color: #F0EFEB;
 }
 .columns {
+	display: flex;
 	display: flex;
 	justify-content: space-between;
 	width: 500px;
