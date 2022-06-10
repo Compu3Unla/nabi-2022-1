@@ -566,6 +566,20 @@ input{
 	left: 800px;
 	top: 280px;
 }
+
+/****************PIEL MIXTA**************************/
+.piel-mixta-botones{
+	width: 500px;
+	height: 70px;
+	background-color: #A5A58D;
+	border-radius: 10px;
+	margin: 10px 0px 10px 40px;
+}
+.piel-mixta-todo{
+	display: flex;
+	align-items: center;
+	margin-right: 100px;
+}
 /****************************FOOTER********************************/
 .footer{
 	color: #4E3A2F;
