@@ -41,13 +41,13 @@ h1 {
 .iconos{
 	justify-content: space-between;
 	width: 100%;
-	margin-left: 1300px;
+	margin-left: 85%;
 	margin-top: 30px;
 	
 }
 .landing-page img{
 	height:43px;
-	width: 750px;
+	width: 100%;
 }
 /****************************DROPDOWN BUTTON************/
 /* Dropdown Button */
@@ -337,32 +337,32 @@ h5 {
 	background-color: #A5A58D;
 	margin-top: 20px;
 	margin-bottom: 50px;
-	display: flex;
-	align-items: center;
+	/*display: flex;
+	align-items: center;*/
 	border-radius: 20px;
-	width: 80%;
-	height: 820px;
+	width: 50%;
+	height: 655px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
 .formulario{
 	width: 50%;
-	margin-top: 314px;
-	padding-right: 60px;
+	/*margin-top: 314px;*/
+	padding-right: 50px;
 }
 .form img{
-	height: 420px;
-	width: 420px;
+	height: 150px;
+	width: auto;
 	vertical-align: text-top;
+	padding: 0px 60px 0px 30px;
 
 }
 .form p{
 	color: #F0EFEB;
 	font-size: 1.25em;
 	width: 60%;
-	padding-left: 120px;
-	margin-top: -63px;
+	padding: 0px 80px 0px 0px;
 	text-align: center;
 }
 .form h4{
@@ -370,12 +370,25 @@ h5 {
 	font-family: 'Nanum Pen';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 4.063em;
+	font-size: 4.6em;
 	line-height: 138px;
 	color: #F0EFEB;
-	position: absolute;
-	left: 600px;
-	margin-top: 110px;
+	margin-top: 60px;
+}
+.form-part1 {
+	display: flex;
+	align-items: flex-end;
+	margin: 0px 0px 70px 40px;
+
+}
+.form-part2{
+	display: flex;
+	align-items: center;
+	margin: 0px 20px 0px 20px;
+}
+
+.info {
+	display: flex;
 
 }
 label{
@@ -390,20 +403,21 @@ label{
 input{
 	background-color: #F0EFEB;
 	height: 30px;;
-	padding-bottom: 10px;
+	padding: 10px;
 	width: 400px;;
 	border-radius: 10px;
-	    border: none;
+	border: none;
 
 }
 .Suscribirse{
-	height: 45px;
+	height: 50px;
 	background-color: #FF622A;
 	margin-top: 30px;
 	color: white;
 	border-radius: 10px;
 	font-family: "Nanum Pen", cursive;
 	font-size: 30px;
+	width: 420px;
 }
 .like {
 	padding: 80px 0px 0px 40px;
@@ -457,9 +471,9 @@ input{
 	color: #4E3A2F;
 	background-color: #FFE5D9;
 	padding: 40px;
-	display: flex;	
-	justify-content: space-between;
-}
+	display: flex;
+	justify-content: space-between;	
+	}
 
 footer ul, h3{
 	list-style: none;	
@@ -470,6 +484,8 @@ footer li{
 	font-family: 'Lexend Deca', sans-serif;
 	font-weight:400;
 	font-size: 0.75em;
+	display: flex;
+	justify-content: space-between;
 }
 h6 {
 	font-family: 'Lexend Deca', sans-serif;
@@ -485,14 +501,12 @@ h6 {
 	padding: 0 50px 0px 0px;
 }
 
+.columns {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+}
 
-
-/*h2{
-
-	font-family: 'Lexend Deca', sans-serif;
-	font-weight:500;
-	font-size: 14px;
-}*/
 
 h3{
 	font-family: 'Lexend Deca', sans-serif;
