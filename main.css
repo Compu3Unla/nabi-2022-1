@@ -70,35 +70,32 @@ margin-top: 70px;
 }
 
 .inbox{
-	margin: 10px;
-	justify-content: space-evenly;
-	gap: 60px;
-	display: flex;	
+	margin: 20px 70px 0px 70px;
+	display: flex;
+	justify-content: space-between;
 	}
+
 .h2-landing {
 	font-family: "Lexend Deca";
 	color: #4E3A2F;
-	height: 220px;
+	height: 0px;
 	padding: 10px 0px 0px 10px;
 	font-weight: 600;
-	font-size: 1.5em;
-}
-
-.boton{
-	color: #F0EFEB;
-	background-color: #FF622A;
-	border-radius: 10px;
-	text-align: center;
-	align-content: center;
-	height: 30px;
-	padding: 18px 20px;
-	text-decoration: none;
+	font-size: 1em;
 }
 
 .iconos-hamburguesa {
 	display: flex;
 	height: 54px;
 	margin: 40px 80px;
+}
+
+.mariposa-hamburguesa {
+	padding-right: 175px;
+}
+
+.sobre-nosotros-hamburguesa {
+	padding-right: 215px;
 }
 /******************DROPDOWN BUTTON************/
 /* Dropdown Button */
@@ -135,31 +132,24 @@ margin-top: 70px;
 	border-radius: 31px;
 	top:55px;
 	left: 97px;
-	
 }
-
-
 
 .grupos li{
 	list-style: none;
 }
 
-.inbox{
-	margin: 10px;
-	justify-content: space-evenly;
-	gap: 60px;
-	display: flex;
-}
-
 .boton{
 	color: #F0EFEB;
 	background-color: #FF622A;
-	border-radius: 10px;
+	border-radius: 30px;
 	text-align: center;
 	align-content: center;
-	height: 30px;
+	height: 10px;
 	padding: 18px 20px;
 	text-decoration: none;
+	font-size: 1em;
+	display: flex;
+	align-items: center;
 }
 
 /* Links inside the dropdown */
