@@ -339,6 +339,9 @@ body{
 .texto-pasos {
 	display: flex;
 	align-items: flex-start;
+	flex-direction: column;
+	width: 35%;
+	margin: 15px 270px 15px 40px;
 }
 .recomendados {
 	display: flex;
@@ -392,8 +395,8 @@ p {
 	color: #4E3A2F;
 	font-weight: 400;
 	font-size: 0.938em;
-	margin: 15px 0px 15px 40px;
-	width: 34%;
+	/*margin: 15px 0px 15px 40px;*/
+	/*width: 54%;*/
 	line-height: 1.375em;
 	}
 
@@ -404,6 +407,7 @@ p {
 	font-size: 0.938em;
 	width: 40%;
 	line-height: 1.375em;
+	
 }
 
 .how-to {
@@ -413,14 +417,14 @@ p {
 	/*font-size: 0.938em;*/
 }
 .productos {
-	margin-left: 555px;
-	margin-top: 30px;
+	margin-top: 10px;
 	font-family: 'Lexend Deca', sans-serif;
 	font-weight: 700;
 	color: #4E3A2F;
 	font-size: 1.125em;
 	left: 760px;
 	top: 456px;
+	
 }
 
 h5 {
@@ -726,11 +730,13 @@ h3{
 .texto-como-usarlo{
 	display: flex;
 	gap: 10px;
-	flex-direction: row;
+	flex-direction: column;
+}
+.texto-colapsible{
+	display: flex;
 }
 
 .carrusel2 {
-	margin-left: 546px;
 	display: flex;
 	gap: 10px;
 	flex-direction: column;
