@@ -140,25 +140,6 @@ margin-top: 70px;
 
 
 
-
-.horizontal {
-	position: relative;
-	padding: 30px 45px;
-	display: flex;
-	justify-content: space-evenly;
-	gap: 60px;
-	text-decoration: none;
-	align-items: flex-start;
-	top: 0;
-}
-
-.grupos{
-	padding: 30px 45px;
-	display: flex;
-	justify-content: space-evenly;
-	gap: 60px;
-}
-
 .grupos li{
 	list-style: none;
 }
