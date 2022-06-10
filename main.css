@@ -80,8 +80,8 @@ h1 {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-	display: none;
 	position: absolute;
+	display: none;
 	background-color:#F0EFEB;
 	width: 840px;
 	height: 477px;
@@ -91,6 +91,49 @@ h1 {
 	top:55px;
 	left: 97px;
 	
+}
+
+
+
+
+.horizontal {
+	position: relative;
+	padding: 30px 45px;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 60px;
+	text-decoration: none;
+	align-items: flex-start;
+	top: 0;
+}
+
+.grupos{
+	padding: 30px 45px;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 60px;
+}
+
+.grupos li{
+	list-style: none;
+}
+
+.inbox{
+	margin: 10px;
+	justify-content: space-evenly;
+	gap: 60px;
+	display: flex;
+}
+
+.boton{
+	color: #F0EFEB;
+	background-color: #FF622A;
+	border-radius: 10px;
+	text-align: center;
+	align-content: center;
+	height: 30px;
+	padding: 18px 20px;
+	text-decoration: none;
 }
 
 /* Links inside the dropdown */
@@ -110,7 +153,10 @@ h1 {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {
+	background-color: #ddd;
+	text-decoration: none;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
