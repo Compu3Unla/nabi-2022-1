@@ -62,7 +62,16 @@ h1 {
 .horizontal {
 margin-top: 70px;
 }
-
+.horizontal li a {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	
+}
+.horizontal li a:hover{
+	text-decoration: underline;
+	background-color: #E5E5E5;
+}
 .grupos{
 	display: flex;
 	justify-content: space-evenly;
@@ -617,6 +626,7 @@ input{
 .info-piel-mixta li:hover{
 	color:#E5E5E5;
 	background-color: #FF622A;
+	text-decoration: underline;
 	
 }
 .piel-mixta-todo img{
