@@ -111,6 +111,7 @@ margin-top: 70px;
 	font-size: 16px;
 	border: none;
 	cursor: pointer;
+	background-color: transparent;
 }
 
 /* Dropdown button on hover & focus */
@@ -210,7 +211,7 @@ margin-top: 70px;
 .conoce:hover{
 	background-color: #A5A58D;
 	color: #F0EFEB;
-	}
+}
 
 .landing-page p {
 	position: absolute;
@@ -412,6 +413,8 @@ p {
 	/*font-size: 0.938em;*/
 }
 .productos {
+	margin-left: 555px;
+	margin-top: 30px;
 	font-family: 'Lexend Deca', sans-serif;
 	font-weight: 700;
 	color: #4E3A2F;
@@ -639,23 +642,23 @@ h6 {
 	margin-bottom: 60px;
 }
 .carrusel ul {
-    list-style: none;
-    margin:0px;
-    padding: 0px;
-    max-width: 1338px;
-    max-height: 800px;
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+	max-width: 1338px;
+	max-height: 800px;
 }
 .carrusel-fotos img{
-    background:#d8ded6;
-    border: 1px solid #d8ded6; 
-    width: 1302px;
-    height: 500;
-    object-fit: contain;
+	background:#d8ded6;
+	border: 1px solid #d8ded6; 
+	width: 1302px;
+	height: 500;
+	object-fit: contain;
 }
 .carrusel-fotos{
-    display: flex;
-    gap:10px;
-    overflow: scroll;
+	display: flex;
+	gap:10px;
+	overflow: scroll;
 }
 .carrusel h5{
 	display: flex;
@@ -673,19 +676,16 @@ h6 {
 	padding-right: 33px;
 	padding-bottom: 10px;
 	text-transform: uppercase;
-
-	}
+}
 .carrusel h5:hover{
 	background-color: #A5A58D;
 	color: #F0EFEB;
 }
 .columns {
 	display: flex;
-	display: flex;
 	justify-content: space-between;
 	width: 500px;
 }
-
 
 h3{
 	font-family: 'Lexend Deca', sans-serif;
@@ -723,59 +723,67 @@ h3{
 
 /**************galeria de productos******/
 
-.carrusel2 {
+.texto-como-usarlo{
 	display: flex;
 	gap: 10px;
 	flex-direction: row;
 }
 
+.carrusel2 {
+	margin-left: 546px;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+}
+
 .carrusel2 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  max-width: 350px;
-  /* max-width: 510px; */
-  scroll-behavior: smooth;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	max-width: 350px;
+	/* max-width: 510px; */
+	scroll-behavior: smooth;
 }
 
 .carrusel-fotos2 {
-  display: flex;
-  gap: 10px;
-  overflow: auto;
+	display: flex;
+	gap: 10px;
+	overflow: auto;
 }
 
 .carrusel-fotos2 img {
-  width: 300px;
-  height: 200px;
-  object-fit: contain;
+	width: 300px;
+	height: 200px;
+	object-fit: contain;
 	border-radius: 20px;
 }
 
 .carrusel-menu2 {
-  display: none;
+	display: none;
 }
 
 @media screen and (min-width: 500px) {
-  .carrusel-fotos2 {
-    overflow: hidden;
-  }
+	.carrusel-fotos2 {
+	overflow: hidden;
+}
 
-  .carrusel-fotos2 img {
-    width: 150px;
-    height: 170px;
-	  border-image: 25px;
-  }
-  .carrusel-menu2 {
+.carrusel-fotos2 img {
+	width: 150px;
+	height: 170px;
+	border-image: 25px;
+}
+.carrusel-menu2 {
 	display: flex;
 	justify-content: center;
-  }
-  .carrusel-menu2 img {
-    box-sizing: border-box;
-    border: 10px solid #F0EFEB;
-	width: 35px;
-    height: 35px;
-  }
-  .carrusel-menu2 img:hover {
-    border: none;
-  }
 }
+.carrusel-menu2 img {
+	box-sizing: border-box;
+	border: 10px solid #F0EFEB;
+	width: 35px;
+	height: 35px;
+}
+.carrusel-menu2 img:hover {
+	border: none;
+}
+}
+	
