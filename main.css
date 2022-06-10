@@ -36,6 +36,10 @@ h1 {
 	padding-right: 20pt;
 	padding-left: 20pt;
 }
+.boton:hover{
+	background-color: #A5A58D;
+	color: #F0EFEB;
+}
 
 /****************************LANDING PAGE********************************/
 .landing-page{
@@ -47,8 +51,8 @@ h1 {
 .iconos{
 	justify-content: space-between;
 	width: 100%;
-	margin-left: 85%;
-	margin-top: 30px;
+	margin-left: 91%;
+	margin-top: 50px;
 }
 /*.landing-page img{
 	height:43px;
@@ -102,8 +106,8 @@ margin-top: 70px;
 .dropbtn {
 	background-image: url("Img/noun-menu-4817062.svg");
 	padding: 20px;
-	margin-left: 30px;
-	margin-top: 50px;
+	margin-left: 50px;
+	margin-top: 47px;
 	font-size: 16px;
 	border: none;
 	cursor: pointer;
@@ -203,6 +207,11 @@ margin-top: 70px;
 	line-height: 230px;
 	color: #FF622A;
 }
+.conoce:hover{
+	background-color: #A5A58D;
+	color: #F0EFEB;
+	}
+
 .landing-page p {
 	position: absolute;
 	width: 553px;
@@ -653,7 +662,10 @@ h6 {
 	text-transform: uppercase;
 
 	}
-
+.carrusel h5:hover{
+	background-color: #A5A58D;
+	color: #F0EFEB;
+}
 .columns {
 	display: flex;
 	justify-content: space-between;
