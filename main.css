@@ -705,3 +705,67 @@ h3{
 .nosotros .tips .piel{
 	display: flex;
 }
+
+/**************galeria de productos******/
+
+.carrusel2 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+	flex-direction: column;
+}
+
+.carrusel2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 350px;
+  /* max-width: 510px; */
+  scroll-behavior: smooth;
+}
+
+.carrusel-fotos2 {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+}
+
+.carrusel-fotos2 img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+	border-radius: 20px;
+}
+
+.carrusel-menu2 {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .carrusel-fotos2 {
+    overflow: hidden;
+  }
+
+  .carrusel-fotos2 img {
+    width: 150px;
+    height: 170px;
+	  border-image: 25px;
+  }
+  .carrusel-menu2 {
+    display: flex;
+	  justify-content: center;
+  }
+  .carrusel-menu2 img {
+    box-sizing: border-box;
+    border: 10px solid #FFFFFF;
+	width: 35px;
+    height: 35px;
+  }
+  .carrusel-menu2 img:hover {
+    border: none;
+  }
+}
+
+p {
+  text-align: center;
+}
