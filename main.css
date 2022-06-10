@@ -256,8 +256,18 @@ body{
 	display: none;
 	overflow: hidden;
 	background-color: #F0EFEB;
+	height: 370px;
 }
-
+.texto-pasos {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.recomendados {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
 h2 {
 	font-family: "Lexend Deca";
 	color: #4E3A2F;
@@ -295,7 +305,10 @@ h5 {
 	font-weight: 400;
 	/*font-size: 1.125em;*/
 }
-
+.negrita{
+	font-weight: 800;
+	color: #4E3A2F;
+}
 
 p {
 	font-family: "Lexend Deca";
@@ -305,10 +318,18 @@ p {
 	margin: 15px 0px 15px 40px;
 	width: 40%;
 	line-height: 1.375em;
+	}
 
-
+.productos p{
+	font-family: "Lexend Deca";
+	color: #4E3A2F;
+	font-weight: 400;
+	font-size: 0.938em;
+	width: 40%;
+	line-height: 1.375em;
 }
-span {
+
+.how-to {
 	font-family: "Lexend Deca";
 	color: #FF622A;
 	font-weight: 800;
@@ -319,7 +340,6 @@ span {
 	font-weight: 700;
 	color: #4E3A2F;
 	font-size: 1.125em;
-	position: absolute;
 	left: 760px;
 	top: 456px;
 }
