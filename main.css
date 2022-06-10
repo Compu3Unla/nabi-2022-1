@@ -710,10 +710,9 @@ h3{
 /**************galeria de productos******/
 
 .carrusel2 {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-	flex-direction: column;
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
 }
 
 .carrusel2 ul {
@@ -753,20 +752,16 @@ h3{
 	  border-image: 25px;
   }
   .carrusel-menu2 {
-    display: flex;
-	  justify-content: center;
+	display: flex;
+	justify-content: center;
   }
   .carrusel-menu2 img {
     box-sizing: border-box;
-    border: 10px solid #FFFFFF;
+    border: 10px solid #F0EFEB;
 	width: 35px;
     height: 35px;
   }
   .carrusel-menu2 img:hover {
     border: none;
   }
-}
-
-p {
-  text-align: center;
 }
