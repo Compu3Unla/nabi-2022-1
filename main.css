@@ -507,6 +507,10 @@ input{
 	border: none;
 
 }
+.Suscribirse:hover{
+	background-color: #FFE5D9;
+	color: #FF622A;
+}
 .Suscribirse{
 	height: 50px;
 	background-color: #FF622A;
@@ -610,19 +614,17 @@ h6 {
 	align-items: center;
 }
 .carrusel h2 {
+	background-color: #FF622A;
+	padding: 0px;
+	height: 55px;
 	width: 100%;
-	height: 20px;
-	padding-bottom: 10px;
-	margin-bottom: 30px;
 	text-align: center;
-	font-family: 'Lexend Deca';
-	font-style: normal;
+	padding-top: 15px;
 	font-weight: 700;
-	font-size: 39px;
-	line-height: 5px;
+	font-size: 28px;
 	text-transform: uppercase;
 	color: #F0EFEB;
-	background-color: #FF622A;
+	margin-bottom: 60px;
 }
 .carrusel ul {
     list-style: none;
