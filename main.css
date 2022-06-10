@@ -62,7 +62,17 @@ h1 {
 .horizontal {
 margin-top: 70px;
 }
-
+.horizontal li a {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	
+}
+.horizontal li a:hover{
+	text-decoration: underline;
+	background-color: #E5E5E5;
+}
 .grupos{
 	display: flex;
 	justify-content: space-evenly;
@@ -586,6 +596,54 @@ input{
 	display: flex;
 	align-items: center;
 	margin-right: 100px;
+}
+
+/****************************RESULTADO PIEL MIXTA*****/
+.info-piel-mixta{
+	margin-top: 150px;
+	margin-left: 50px;
+	
+}
+.info-piel-mixta h2{
+	font-size: 34px;
+	height: 97px;
+	
+}
+.info-piel-mixta p{
+	font-size: 25px;
+	width: 70%;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+.info-piel-mixta li {
+	list-style: none;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	color: #F0EFEB;
+	padding-left: 20px;
+	padding-top: 20px;
+	height: 50px;
+	width: 70%;
+	margin-top: 15px;
+	
+}
+.info-piel-mixta li:hover{
+	color:#E5E5E5;
+	background-color: #FF622A;
+	text-decoration: underline;
+	
+}
+.piel-mixta-todo img{
+	margin-top: 294px;
+	border-radius: 25px;
+}
+.like{
+	margin-left: 44px;
+}
+.info-piel-mixta a {
+	text-decoration: none;
+	color:#E5E5E5;
 }
 /****************************FOOTER********************************/
 .footer{
