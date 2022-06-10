@@ -111,6 +111,7 @@ margin-top: 70px;
 	font-size: 16px;
 	border: none;
 	cursor: pointer;
+	background-color: transparent;
 }
 
 /* Dropdown button on hover & focus */
