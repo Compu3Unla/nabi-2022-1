@@ -28,6 +28,10 @@ h1 {
 	padding-right: 20px;
 	font-weight: 400;
 	}
+h1:hover {
+	text-decoration:underline;
+	color: #E5E5E5;
+}
 .logo {
 	position: relative;
 	right: 65%;
@@ -381,13 +385,13 @@ p {
 	font-size: 14px;
 }
 
-h5 {
+/*h5 {
 	font-family: "Lexend Deca";
 	color: #FF622A;
 	font-weight: 800;
 	font-size: 14px;
 
-}
+}*/
 
 .pasos-collapsible {
 	font-family: "Lexend Deca";
@@ -441,7 +445,7 @@ h5 {
 	font-family: "Lexend Deca";
 	color: #4E3A2F;
 	font-weight: 600;
-	font-size: 0.75em;
+	font-size: 1.10em;
 }
 /***************FORMULARIO***********************/
 
@@ -554,7 +558,7 @@ input{
 	align-content: space-around;
 	align-items: center;
 	position: absolute;
-	left: 800px;
+	left: 980px;
 	top: 180px;
 }
 .time2{
@@ -564,7 +568,7 @@ input{
 	align-content: space-around;
 	align-items: center;
 	position: absolute;
-	left: 800px;
+	left: 980px;
 	top: 230px;
 }
 .reloj {
@@ -580,42 +584,42 @@ input{
 	font-size: 1.125em;
 	text-transform: uppercase;
 	position: absolute;
-	left: 800px;
+	left: 980px;
 	top: 280px;
 }
 
 /****************PIEL MIXTA**************************/
-.piel-mixta-botones{
+.piel-botones{
 	width: 500px;
 	height: 70px;
 	background-color: #A5A58D;
 	border-radius: 10px;
 	margin: 10px 0px 10px 40px;
 }
-.piel-mixta-todo{
+.piel-todo{
 	display: flex;
 	align-items: center;
 	margin-right: 100px;
 }
 
 /****************************RESULTADO PIEL MIXTA*****/
-.info-piel-mixta{
+.info-piel{
 	margin-top: 150px;
 	margin-left: 50px;
 	
 }
-.info-piel-mixta h2{
+.info-piel h2{
 	font-size: 34px;
 	height: 97px;
 	
 }
-.info-piel-mixta p{
+.info-piel p{
 	font-size: 25px;
-	width: 70%;
+	width: 75%;
 	font-weight: 400;
-	margin-bottom: 60px;
+	margin: 0px 0px 60px 40px;
 }
-.info-piel-mixta li {
+.info-piel li {
 	list-style: none;
 	text-decoration: none;
 	font-weight: 600;
@@ -628,20 +632,20 @@ input{
 	margin-top: 15px;
 	
 }
-.info-piel-mixta li:hover{
+.info-piel li:hover{
 	color:#E5E5E5;
 	background-color: #FF622A;
 	text-decoration: underline;
 	
 }
-.piel-mixta-todo img{
+.piel-todo img{
 	margin-top: 294px;
 	border-radius: 25px;
 }
 .like{
 	margin-left: 44px;
 }
-.info-piel-mixta a {
+.info-piel a {
 	text-decoration: none;
 	color:#E5E5E5;
 }
