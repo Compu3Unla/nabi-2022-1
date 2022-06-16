@@ -447,6 +447,64 @@ h5 {
 	font-weight: 600;
 	font-size: 1.10em;
 }
+.piel-grasa-pasos {
+	display: flex;
+}
+
+.rutina-pgrasa{
+	display: flex;
+	align-items: center;
+}
+
+.piel-grasa-p {
+	display: flex;
+}
+
+.piel-grasa-pp {
+	border-radius: 80px;
+	display: flex;
+	flex-direction: row;
+	padding: 52px;
+}
+.piel-seca-pasos {
+	display: flex;
+}
+
+.rutina-pseca{
+	display: flex;
+	align-items: center;
+}
+
+.piel-gseca-p {
+	display: flex;
+}
+
+.piel-seca-pp {
+	border-radius: 80px;
+	display: flex;
+	flex-direction: row;
+	padding: 52px;
+}
+
+.piel-rosacea-pasos {
+	display: flex;
+}
+
+.rutina-prosacea{
+	display: flex;
+	align-items: center;
+}
+
+.piel-grosacea-p {
+	display: flex;
+}
+
+.piel-rosacea-pp {
+	border-radius: 80px;
+	display: flex;
+	flex-direction: row;
+	padding: 52px;
+}
 /***************FORMULARIO***********************/
 
 
