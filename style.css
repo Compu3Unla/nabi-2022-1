@@ -47,7 +47,7 @@ h1:hover {
 
 /****************************LANDING PAGE********************************/
 .landing-page{
-	background-image:url("Img/foto principal.png");
+	background-image:url("Img/foto-principal.png");
 	height: 1000px;
 	width: 100%;
 	display: flex;
