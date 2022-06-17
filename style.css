@@ -28,10 +28,7 @@ h1 {
 	padding-right: 20px;
 	font-weight: 400;
 	}
-h1:hover {
-	text-decoration:underline;
-	color: #E5E5E5;
-}
+
 .logo {
 	position: relative;
 	right: 65%;
