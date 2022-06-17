@@ -661,6 +661,7 @@ input{
 	display: flex;
 	align-items: center;
 	margin-right: 100px;
+	height: 510px;
 }
 
 /****************************RESULTADO PIEL MIXTA*****/
@@ -705,6 +706,7 @@ input{
 }
 .like{
 	margin-left: 44px;
+	margin-top: 138px;
 }
 .info-piel a {
 	text-decoration: none;
@@ -716,8 +718,9 @@ input{
 	background-color: #FFE5D9;
 	padding: 40px;
 	display: flex;
-	justify-content: space-between;	
-	}
+	justify-content: space-between;
+	height: 62px;
+}
 
 footer ul, h3{
 	list-style: none;	
@@ -738,6 +741,10 @@ h6 {
 	text-decoration: underline;
 }
 
+
+.footer-resultados{
+	margin-top: -95px;
+}
 
 .redes {
 	display: flex;
