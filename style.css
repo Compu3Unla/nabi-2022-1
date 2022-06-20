@@ -46,7 +46,7 @@ h1 {
 .landing-page{
 	background-image:url("Img/foto-principal.png");
 	background-repeat: no-repeat;
-background-size: 100%;
+	background-size: 100%;
 	height: 100vh;
 	width: 100%;
 	display: flex;
@@ -728,7 +728,7 @@ input{
 	color:#E5E5E5;
 }
 /****************************FOOTER********************************/
-.footer{
+footer{
 	color: #4E3A2F;
 	background-color: #FFE5D9;
 	padding: 40px;
@@ -908,13 +908,27 @@ h3{
 	padding: 0;
 	max-width: 350px;
 	/* max-width: 510px; */
-	scroll-behavior: smooth;
+	/*scroll-behavior: smooth;*/
+	/*overflow: auto;*/
+	overflow: overlay;
+}
+
+/*Webkit*/
+.carrusel2 ul::-webkit-scrollbar {
+ display: none;
+}
+.carrusel2 ul:hover::-webkit-scrollbar {
+ display: initial;
+}
+.carrusel2 ul::-webkit-scrollbar-thumb {
+background-color: #A5A58D;
 }
 
 .carrusel-fotos2 {
 	display: flex;
 	gap: 10px;
 	overflow: auto;
+	
 }
 
 .carrusel-fotos2 img {
@@ -922,33 +936,79 @@ h3{
 	height: 200px;
 	object-fit: contain;
 	border-radius: 20px;
+	margin-bottom: 20px;
 }
 
 .carrusel-menu2 {
 	display: none;
 }
 
-@media screen and (min-width: 500px) {
-	.carrusel-fotos2 {
-	overflow: hidden;
-}
-
-.carrusel-fotos2 img {
-	width: 150px;
-	height: 170px;
-	border-image: 25px;
-}
-.carrusel-menu2 {
-	display: flex;
-	justify-content: center;
-}
-.carrusel-menu2 img {
-	box-sizing: border-box;
-	border: 10px solid #F0EFEB;
-	width: 35px;
-	height: 35px;
-}
-.carrusel-menu2 img:hover {
-	border: none;
-}
-}
+@media screen and (max-width: 600px){
+	body{
+		background-color: #FFE5D9;
+	}
+	.landing-page p {
+		display: none;
+	}
+	.nabi {
+		display: none;
+	}
+	.landing-page h5 {
+		left: 50px;
+	}
+	.form {
+		height: 800px;
+		width: 80%;
+		border-radius: 40px;
+		box-shadow: #797969 0px 8px 12px -3px;
+	}
+	.form img {
+		height: 110px;
+		padding-right: 36px;
+	}
+	.form-part1{
+		margin-left: 10px;
+	}
+	.form-part2 {
+		flex-direction: column;
+		align-items: normal;
+	}.form p {
+		width: 85%;
+	}
+	.form h4 {
+		font-size: 3.5em;
+		line-height: 55px;
+		margin-top: 28px;
+	}
+	label {
+		font-size: 38px;
+	}
+	input {
+		border-radius: 30px;
+	}
+	.Suscribirse {
+		border-radius: 30px;
+		font-size: 40px;
+		height: 60px;
+		box-shadow: #8f391b 0px 8px 15px -5px;
+	}
+	.form p {
+		font-size: 1.35em;
+		width: 90%;
+		padding-left: 25px;
+	}
+	footer {
+		background-color: #f0efeb;
+		height: 120px;
+		flex-wrap: wrap;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	h6, footer li {
+		font-size: 1em;
+		line-height: 25px;
+	}
+	
+	}
