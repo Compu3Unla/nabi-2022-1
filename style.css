@@ -959,6 +959,7 @@ background-color: #A5A58D;
 	color: #F0EFEB;
 	border-radius: 22px;
 	letter-spacing: 1px;
+	transition: .3s ease all;
 }
 
 .boton-respuesta a {
@@ -968,8 +969,11 @@ background-color: #A5A58D;
 	font-family: "Lexend Deca", sans-serif;
 	font-size: 22px;
 	font-weight: 400;
+	
 }
-
+.boton-respuesta:hover {
+	background-color: #FF622A;
+}
 .preguntas {
 	display: flex;
 	justify-content: center;
