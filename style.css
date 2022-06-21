@@ -982,8 +982,7 @@ background-color: #A5A58D;
 	font-family: "Nanum-Pen", cursive;
 	font-weight: 600;
 	font-size: 2.5em;
-}
-
+} 
 @media screen and (max-width: 600px){
 	body{
 		background-color: #FFE5D9;
