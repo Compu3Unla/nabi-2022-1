@@ -943,6 +943,20 @@ background-color: #A5A58D;
 	display: none;
 }
 /**************test******/
+.preguntas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.7em;
+	height: 50px;
+} 
+
+.img-test {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0px 10px;
+}
 .respuestas {
 	display: flex;
 	justify-content: center;
@@ -980,15 +994,7 @@ background-color: #A5A58D;
 .boton-respuesta:hover {
 	background-color: #FF622A;
 }
-.preguntas {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 35px;
-	font-family: "Lexend Deca", sans-serif;
-	font-weight: 600;
-	font-size: 1.7em;
-} 
+
 @media screen and (max-width: 600px){
 	body{
 		background-color: #FFE5D9;
