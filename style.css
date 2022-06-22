@@ -969,6 +969,11 @@ background-color: #A5A58D;
 	font-family: "Lexend Deca", sans-serif;
 	font-size: 22px;
 	font-weight: 400;
+	display: flex;
+	width: 500px;
+	height: 30px;
+	justify-content: space-around;
+	align-items: center;
 	
 }
 .boton-respuesta:hover {
@@ -979,9 +984,9 @@ background-color: #A5A58D;
 	justify-content: center;
 	align-items: center;
 	margin: 35px;
-	font-family: "Nanum-Pen", cursive;
+	font-family: "Lexend Deca", sans-serif;
 	font-weight: 600;
-	font-size: 2.5em;
+	font-size: 1.7em;
 } 
 @media screen and (max-width: 600px){
 	body{
