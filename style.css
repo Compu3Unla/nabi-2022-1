@@ -1103,6 +1103,7 @@ h3{
 		flex-wrap: wrap;
 		padding-left: 70px;
 		padding-right: 70px;
+		width: 100%;
 	}
 	h6, footer li {
 		font-size: 1em;
