@@ -270,8 +270,26 @@ margin-top: 70px;
 	padding-top: 15px;
 	padding-left: 85px;
 	text-transform: uppercase;
+}
+.Suscribirse{
+	animation-name: suscribirse;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
 	
 	}
+@keyframes suscribirse{
+	0%{
+	visibility: hidden;
+	}
+	75%{
+	visibility: hidden;
+	}
+	100%{
+		visibility: visible;
+	}
+}
 
 body{
 	position:relative;
@@ -994,7 +1012,23 @@ background-color: #A5A58D;
 .boton-respuesta:hover {
 	background-color: #FF622A;
 }
+.mariposas-animacion{
+	position: absolute;
+	animation: imagen alternate 1s infinite ease-in-out;
+}
 
+@keyframes imagen{
+	0%{
+		background-image:url("img/png-mariposa-1.png");
+	}
+	50%{
+		background-image: url("img/png-mariposa-2.png");
+		width: 480px;
+		height: 270px;
+		position: absolute;
+		visibility: visible;
+	}
+}
 @media screen and (max-width: 600px){
 	body{
 		background-color: #FFE5D9;
