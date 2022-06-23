@@ -281,10 +281,11 @@ margin-top: 70px;
 	}
 @keyframes suscribirse{
 	0%{
-	visibility: hidden;
+	background-color: #FFE5D9;
 	}
 	75%{
-	visibility: hidden;
+	background-color: #FFE5D9;
+	color: #FF622A;
 	}
 	100%{
 		visibility: visible;
