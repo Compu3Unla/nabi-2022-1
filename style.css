@@ -1033,6 +1033,7 @@ background-color: #A5A58D;
 	body{
 		background-color: #FFE5D9;
 	}
+	
 	.landing-page p {
 		display: none;
 	}
@@ -1041,6 +1042,25 @@ background-color: #A5A58D;
 	}
 	.landing-page h5 {
 		left: 50px;
+	}
+	.prev, .next {
+		margin-top: -657px;
+}
+	.carrusel h2{
+		padding-top: 25px;
+		font-weight: 450;
+		font-size: 21px;
+	}
+	.carrusel ul{
+		max-width: 600px;
+		max-height: 433px;
+	}
+	.carrusel-fotos img{
+		width: 557px;
+	}
+	.carrusel h5{
+		font-weight: 450;
+		font-size: 17px;
 	}
 	.form {
 		height: 800px;
@@ -1087,8 +1107,6 @@ background-color: #A5A58D;
 		background-color: #f0efeb;
 		height: 120px;
 		flex-wrap: wrap;
-		border-top-left-radius: 30px;
-		border-top-right-radius: 30px;
 		padding-left: 70px;
 		padding-right: 70px;
 	}
