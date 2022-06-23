@@ -1014,23 +1014,31 @@ background-color: #A5A58D;
 	background-color: #FF622A;
 }
 .mariposas-animacion{
+	height: 50px;
+	width: 50px;
 	position: absolute;
+	background-image: url("img/png-mariposa-1.png");
 	animation-name: imagen;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-direction: alternate;
+	animation-timing-function: ease-in;
+	z-index: 10;
 	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
+	margin-left: 100px;
+	top: 110px;
 }
 
 @keyframes imagen{
-	0%{
-		background-image:url("img/png-mariposa-1.png");
-	}
+	0%{;
+	left: 10px;}
 	50%{
 		background-image: url("img/png-mariposa-2.png");
+		left: 1200px;
+		visibility: hidden;
 	}
 	100%{
-		background-image: url("img/png-mariposa-1.png")
+		background-image: url("img/png-mariposa-1.png");
+		left:1200px;
 	}
 }
 @media screen and (max-width: 600px){
