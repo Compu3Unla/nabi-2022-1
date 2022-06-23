@@ -753,7 +753,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	height: 62px;
-	width: 100%;
+	/*width: 100%;*/
 }
 
 footer ul, h3{
@@ -923,7 +923,7 @@ h3{
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	max-width: 366px;
+	max-width: 407px;
 	/* max-width: 510px; */
 	/*scroll-behavior: smooth;*/
 	/*overflow: auto;*/
