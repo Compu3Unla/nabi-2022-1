@@ -753,6 +753,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	height: 62px;
+	width: 100%;
 }
 
 footer ul, h3{
