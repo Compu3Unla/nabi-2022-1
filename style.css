@@ -1009,6 +1009,9 @@ h3{
 	letter-spacing: 1px;
 	transition: .3s ease all;
 }
+.carrusel-fotos2{
+	visibility: hidden;
+}
 
 .boton-respuesta a {
 	text-decoration: none; 
@@ -1028,23 +1031,31 @@ h3{
 	background-color: #FF622A;
 }
 .mariposas-animacion{
+	height: 50px;
+	width: 50px;
 	position: absolute;
+	background-image: url("img/png-mariposa-1.png");
 	animation-name: imagen;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-direction: alternate;
+	animation-timing-function: ease-in;
+	z-index: 10;
 	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
+	margin-left: 100px;
+	top: 110px;
 }
 
 @keyframes imagen{
-	0%{
-		background-image:url("img/png-mariposa-1.png");
-	}
+	0%{;
+	left: 10px;}
 	50%{
 		background-image: url("img/png-mariposa-2.png");
+		left: 1200px;
+		visibility: hidden;
 	}
 	100%{
-		background-image: url("img/png-mariposa-1.png")
+		background-image: url("img/png-mariposa-1.png");
+		left:1200px;
 	}
 }
 @media screen and (max-width: 600px){
@@ -1069,7 +1080,10 @@ h3{
 		font-weight: 450;
 		font-size: 21px;
 	}
-	.carrusel ul{
+	.carrusel-fotos{
+		visibility: hidden;
+	}
+	/*.carrusel ul{
 		max-width: 600px;
 		max-height: 433px;
 	}
@@ -1079,6 +1093,20 @@ h3{
 	.carrusel h5{
 		font-weight: 450;
 		font-size: 17px;
+	}*/
+	.carrusel ul{
+		max-width: 600px;
+		max-height:1100px;
+	}
+	.carrusel h5{
+		visibility: visible;
+	}
+	.carrusel-fotos2{
+		visibility:visible;
+	}
+	.carrusel-fotos2 img{
+		height: 900px;
+		width: 600px;
 	}
 	.form {
 		height: 800px;
@@ -1092,6 +1120,7 @@ h3{
 	}
 	.form-part1{
 		margin-left: 10px;
+
 	}
 	.form-part2 {
 		flex-direction: column;
