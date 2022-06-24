@@ -771,7 +771,7 @@ input{
 /****************************FOOTER********************************/
 footer{
 	color: #4E3A2F;
-	background-color: #FFE5D9;
+	background-color: #FFE5D9 !important;
 	padding: 40px;
 	display: flex;
 	justify-content: space-between;
@@ -1191,7 +1191,7 @@ h3{
 		padding-left: 25px;
 	}
 	footer {
-		background-color: #f0efeb;
+		background-color: #f0efeb !important;
 		height: 120px;
 		flex-wrap: wrap;
 	/*	padding-left: 70px;
