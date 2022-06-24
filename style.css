@@ -995,6 +995,9 @@ background-color: #A5A58D;
 	letter-spacing: 1px;
 	transition: .3s ease all;
 }
+.carrusel-fotos2{
+	visibility: hidden;
+}
 
 .boton-respuesta a {
 	text-decoration: none; 
@@ -1063,7 +1066,10 @@ background-color: #A5A58D;
 		font-weight: 450;
 		font-size: 21px;
 	}
-	.carrusel ul{
+	.carrusel-fotos{
+		visibility: hidden;
+	}
+	/*.carrusel ul{
 		max-width: 600px;
 		max-height: 433px;
 	}
@@ -1073,6 +1079,20 @@ background-color: #A5A58D;
 	.carrusel h5{
 		font-weight: 450;
 		font-size: 17px;
+	}*/
+	.carrusel ul{
+		max-width: 600px;
+		max-height:1100px;
+	}
+	.carrusel h5{
+		visibility: visible;
+	}
+	.carrusel-fotos2{
+		visibility:visible;
+	}
+	.carrusel-fotos2 img{
+		height: 900px;
+		width: 600px;
 	}
 	.form {
 		height: 800px;
@@ -1086,6 +1106,7 @@ background-color: #A5A58D;
 	}
 	.form-part1{
 		margin-left: 10px;
+
 	}
 	.form-part2 {
 		flex-direction: column;
