@@ -93,7 +93,7 @@ margin-top: 70px;
 	text-decoration: none;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 1.125em;
 	
 }
 .horizontal li a:hover{
@@ -145,7 +145,7 @@ margin-top: 70px;
 	padding: 20px;
 	margin-left: 50px;
 	margin-top: 47px;
-	font-size: 16px;
+	font-size: 1em;
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
@@ -202,7 +202,7 @@ margin-top: 70px;
 	font-family: 'Lexend Deca';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 1.25em;
 	line-height: 37px;
 	/*display: inline;
 	margin-left: 50px;
@@ -223,7 +223,7 @@ margin-top: 70px;
 	font-family: 'Lexend Deca';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1.125em;
 	line-height: 32px;
 	color: #4E3A2F;
 }
@@ -245,7 +245,7 @@ margin-top: 70px;
 	font-family: 'Nanum-Pen';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 200px;
+	font-size: 12.5em;
 	line-height: 230px;
 	color: #FF622A;
 }
@@ -267,7 +267,7 @@ margin-top: 70px;
 	font-family: 'Lexend Deca';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 23px;
+	font-size: 1.438em;
 	line-height: 33px;
 	color: #4E3A2F;
 }
@@ -284,7 +284,7 @@ margin-top: 70px;
 	font-family: 'Lexend Deca';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 1.5em;
 	line-height: 30px;
 	text-align: center;	
 	padding-top: 15px;
@@ -349,7 +349,7 @@ body{
 	margin-top: -50px;
 	color: white;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 1.25em;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 	webkit-user-select: none;
@@ -384,7 +384,7 @@ body{
 	text-align: left;
 	outline: none;
 	font-family: "Lexend Deca";
-	font-size: 600;
+	font-size: 37.5em;
 	border-top: 5px;
 	border-style: solid;
 	border-color: #F0EFEB;
@@ -426,21 +426,21 @@ h4 {
 	font-family: "Lexend Deca";
 	color: #4E3A2F;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1.125em;
 }
 
 p {
 	font-family: "Lexend Deca";
 	color: #4E3A2F;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 0.875em;
 }
 
 /*h5 {
 	font-family: "Lexend Deca";
 	color: #FF622A;
 	font-weight: 800;
-	font-size: 14px;
+	font-size: 0.875em;
 
 }*/
 
@@ -626,7 +626,7 @@ h5 {
 label{
 	display: block;
 	font-family: "Nanum-Pen", cursive;
-	font-size: 30px;
+	font-size: 1.875em;
 	color: #FFE5D9;
 	margin-bottom: 20px;
 	text-decoration: underline;
@@ -652,7 +652,7 @@ input{
 	color: white;
 	border-radius: 10px;
 	font-family: "Nanum-Pen", cursive;
-	font-size: 30px;
+	font-size: 1.875em;
 	width: 420px;
 }
 .like {
@@ -725,12 +725,12 @@ input{
 	
 }
 .info-piel h2{
-	font-size: 34px;
+	font-size: 2.125em;
 	height: 97px;
 	
 }
 .info-piel p{
-	font-size: 25px;
+	font-size: 1.563em;
 	width: 75%;
 	font-weight: 400;
 	margin: 0px 0px 60px 40px;
@@ -739,7 +739,7 @@ input{
 	list-style: none;
 	text-decoration: none;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 1.25em;
 	color: #F0EFEB;
 	padding-left: 20px;
 	padding-top: 20px;
@@ -825,7 +825,7 @@ h6 {
 	text-align: center;
 	padding-top: 15px;
 	font-weight: 700;
-	font-size: 28px;
+	font-size: 1.75em;
 	text-transform: uppercase;
 	color: #F0EFEB;
 	margin-bottom: 60px;
@@ -871,7 +871,7 @@ background-color: #A5A58D;
 	font-family: 'Lexend Deca';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 1.5em;
 	line-height: 30px;
 	text-align: center;	
 	padding-top: 13px;
@@ -1018,7 +1018,7 @@ h3{
 	color: #F0EFEB;
 	padding: 20px 35px;
 	font-family: "Lexend Deca", sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: 400;
 	display: flex;
 	width: 365px;
@@ -1107,7 +1107,7 @@ h3{
 	.carrusel h2{
 		padding-top: 25px;
 		font-weight: 450;
-		font-size: 21px;
+		font-size: 1.313em;
 	}
 	.carrusel-fotos{
 		display: none;
@@ -1121,7 +1121,7 @@ h3{
 	}
 	.carrusel h5{
 		font-weight: 450;
-		font-size: 17px;
+		font-size: 1.063em;
 	}*/
 	.carrusel ul{
 		max-width: 600px;
@@ -1169,14 +1169,14 @@ h3{
 		margin-top: 28px;
 	}
 	label {
-		font-size: 38px;
+		font-size: 2.375em;
 	}
 	input {
 		border-radius: 30px;
 	}
 	.Suscribirse {
 		border-radius: 30px;
-		font-size: 40px;
+		font-size: 2.5em;
 		height: 60px;
 		box-shadow: #8f391b 0px 8px 15px -5px;
 	}
