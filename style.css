@@ -319,6 +319,7 @@ body{
 	height: 100%;
 	max-width: 100%;
 }
+
 /** {
 	box-sizing: border-box;
 }*/
@@ -413,6 +414,7 @@ body{
 	align-items: flex-end;
 	justify-content: flex-start;
 }
+
 h2 {
 	font-family: "Lexend Deca";
 	color: #4E3A2F;
@@ -1091,6 +1093,8 @@ h3{
 		text-align: center;
 
 	}
+	
+	}
 	.landing-page h5 {
 		width: 365px;
 		display: flex;
@@ -1106,6 +1110,9 @@ h3{
 		padding-top: 25px;
 		font-weight: 450;
 		font-size: 1.313em;
+	}
+	.grupos{
+		z-index: 500;
 	}
 	.carrusel-fotos{
 		display: none;
@@ -1224,5 +1231,3 @@ h3{
 	}
 	
 	
-	
-	}
