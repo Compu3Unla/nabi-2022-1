@@ -20,7 +20,7 @@ header{
 	justify-content: flex-end;
 	align-items: center;
 }
-.a-header {
+.landing-header {
 	/*width: 100%;
 	height: 900px;*/
 	background-image:url("Img/foto-principal.png");
@@ -1009,8 +1009,8 @@ h3{
 	letter-spacing: 1px;
 	transition: .3s ease all;
 }
-.carruselfotos-2{
-	display: none;
+.carrusel-fotos2{
+	visibility: hidden;
 }
 
 .boton-respuesta a {
@@ -1102,6 +1102,8 @@ h3{
 		font-weight: 450;
 		font-size: 21px;
 	}
+	.carrusel-fotos{
+		visibility: hidden;
 	}
 	/*.carrusel ul{
 		max-width: 600px;
@@ -1121,20 +1123,12 @@ h3{
 	.carrusel h5{
 		visibility: visible;
 	}
-	.carrusel-fotos{
-		display: none;
+	.carrusel-fotos2{
+		visibility:visible;
 	}
-	.carruselfotos-2 {
-		display: flex;
-		gap: 10px;
-		overflow: auto;
-}
-	.carruselfotos-2 img{
+	.carrusel-fotos2 img{
 		height: 900px;
 		width: 600px;
-		object-fit: contain;
-		border-radius: 20px;
-		margin-bottom: 20px;
 	}
 	.form {
 		height: 800px;
