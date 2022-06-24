@@ -1163,4 +1163,33 @@ h3{
 		line-height: 25px;
 	}
 	
+	.iconos-hamburguesa{
+		display: none;
+	}
+	.dropdown-content{
+		width: 480px;
+		height: 680px;
+	}
+	
+	.grupos{
+		margin-left: 60px;
+		flex-direction: column;
+	}
+	
+	.horizontal{
+		margin-top: 32px;
+	}
+	
+	.inbox{
+		margin: 22px 27px 0px 25px;
+		justify-content: space-between;
+	}
+	
+	hr{
+		width: 478px;
+		margin-top: 36px;
+	}
+	
+	
+	
 	}
