@@ -319,7 +319,6 @@ body{
 	height: 100%;
 	max-width: 100%;
 }
-
 /** {
 	box-sizing: border-box;
 }*/
@@ -414,7 +413,6 @@ body{
 	align-items: flex-end;
 	justify-content: flex-start;
 }
-
 h2 {
 	font-family: "Lexend Deca";
 	color: #4E3A2F;
@@ -771,7 +769,7 @@ input{
 /****************************FOOTER********************************/
 footer{
 	color: #4E3A2F;
-	background-color: #FFE5D9 !important;
+	background-color: #FFE5D9;
 	padding: 40px;
 	display: flex;
 	justify-content: space-between;
@@ -1093,8 +1091,6 @@ h3{
 		text-align: center;
 
 	}
-	
-	}
 	.landing-page h5 {
 		width: 365px;
 		display: flex;
@@ -1191,7 +1187,7 @@ h3{
 		padding-left: 25px;
 	}
 	footer {
-		background-color: #f0efeb !important;
+		background-color: #f0efeb;
 		height: 120px;
 		flex-wrap: wrap;
 	/*	padding-left: 70px;
@@ -1231,3 +1227,5 @@ h3{
 	}
 	
 	
+	
+	}
