@@ -448,7 +448,7 @@ p {
 	font-family: "Lexend Deca";
 	color: #F0EFEB;
 	font-weight: 400;
-	/*font-size: 1.125em;*/
+	font-size: 20px;
 }
 .negrita{
 	font-weight: 800;
@@ -479,7 +479,7 @@ p {
 	font-family: "Lexend Deca";
 	color: #FF622A;
 	font-weight: 800;
-	/*font-size: 0.938em;*/
+	font-size: 0.938em;
 }
 .productos {
 	margin-top: 10px;
