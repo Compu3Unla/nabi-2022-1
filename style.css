@@ -23,7 +23,7 @@ header{
 .landing-header {
 	/*width: 100%;
 	height: 900px;*/
-	background-image:url("Img/foto-principal.png");
+	background-image:url("img/foto-principal.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 100vh;
@@ -141,7 +141,7 @@ margin-top: 70px;
 /******************DROPDOWN BUTTON************/
 /* Dropdown Button */
 .dropbtn {
-	background-image: url("Img/noun-menu-4817062.svg");
+	background-image: url("img/noun-menu-4817062.svg");
 	padding: 20px;
 	margin-left: 50px;
 	margin-top: 47px;
@@ -1066,7 +1066,7 @@ h3{
 		background-color: #FFE5D9;
 	}
 	.landing-header{ 
-		background-image: url("Img/foto-principal-mobile.png");
+		background-image: url("img/foto-principal-mobile.png");
 		height: 590px;
 		background-color: transparent;
 	}
