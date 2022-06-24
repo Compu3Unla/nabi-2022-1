@@ -1047,19 +1047,41 @@ h3{
 		background-image: url("img/png-mariposa-1.png")
 	}
 }
+
+/************************MOBILE *********************************************/
 @media screen and (max-width: 600px){
 	body{
 		background-color: #FFE5D9;
 	}
-	
+	.landing-header{ 
+		background-image: url("Img/foto-principal-mobile.jpg");
+		height: 590px;
+		background-color: transparent;
+	}
+	.texto-landing {
+		width: 85%;
+	}
+	.landing-page {
+		margin-top: 365px;
+		margin-right: 50px;
+	}
 	.landing-page p {
 		display: none;
+	}
+	.iconos {
+		margin-right: 70px;
+		margin-left: 75%;
 	}
 	.nabi {
 		display: none;
 	}
 	.landing-page h5 {
-		left: 50px;
+		width: 365px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.boton-test{
+		font-size: 0.9em;
 	}
 	.prev, .next {
 		margin-top: -657px;
@@ -1125,9 +1147,9 @@ h3{
 		background-color: #f0efeb;
 		height: 120px;
 		flex-wrap: wrap;
-		padding-left: 70px;
+	/*	padding-left: 70px;
 		padding-right: 70px;
-		width: 100%;
+		width: 100%;*/
 	}
 	h6, footer li {
 		font-size: 1em;
